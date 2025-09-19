@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: raman-micro
-  namespace: raman
+  name: guptak-micro
+  namespace: guptak
 spec:
   selector:
-    app: raman-micro
+    app: guptak-micro
   ports:
     - protocol: TCP
       port: 80
